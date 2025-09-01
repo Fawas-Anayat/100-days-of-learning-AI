@@ -1,0 +1,17 @@
+Welcome to my Day 4/100 of Learning AI
+The topics I explored today are:
+1..Bayes Theorem
+---given by reverend thomas Bayes
+---update the probability of an event based on some previous information
+Formula:
+P(A|B)=(p(B|A)*p(A))/p(B)
+where
+p(A|B)=update probability
+p(A)=initial belief
+p(B)=marginal probability
+p(B|A)=evidence that supppots the initial belief
+
+Use cases:
+-->medical diagnosis
+-->spam classification
+-->recomendation systems
