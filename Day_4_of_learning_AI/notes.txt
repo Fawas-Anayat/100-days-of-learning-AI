@@ -15,3 +15,10 @@ Use cases:
 -->medical diagnosis
 -->spam classification
 -->recomendation systems
+
+
+2..Visualising different statistics functins like:
+-Different distributions like normal distribution and uniform distribution
+-PDF(probability density function)
+-PMF(probability mass function)
+-CDF(cumulative distribution function)
