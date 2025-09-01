@@ -1,0 +1,8 @@
+Its day 1 of my 100 days of learning AI journey.
+Today i started learning statistics which is the core of Data Science and AI
+Today I learnt the basics of the statistics and the stuff like:
+-->mean
+-->median
+-->variance
+-->standard deviation
+-->quartiles and percentiles
