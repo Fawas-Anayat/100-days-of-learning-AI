@@ -19,3 +19,7 @@ Its limitation is that its not relaible
 
 2.Interval Estimation:in this method instead of estimating a single value we estimate the the occurenace of that value in an Interval called as the confidence Interval
 This is more accurate and relaible Estimation than that of the point Estimation
+
+
+
+Apart from above topics I did practice the PDF,PMF,CDF and some other topics of the statisics by visualizing them using matplotlib.pyplot and seaborn
