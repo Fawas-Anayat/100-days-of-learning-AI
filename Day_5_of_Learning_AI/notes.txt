@@ -1,0 +1,21 @@
+Welcome to my Day 5/100 of learning AI
+
+Today I explored the following key concepts of statisics
+
+---Inferential statisics:that deals with taking a sample from the population and then based on that sample calculates the overall statisics for the whole population
+
+---population parameter:means the actual statisiccal values of the population
+
+---sample statisics:means the estimated values 
+
+---Estimation:means drawing conclusions for the population based on the sample data
+
+following are the types of the Estimation
+
+1.point Estimation:provides a single value as the best guess for a population parameter
+For its efficiency we can say that greater the sample size better wil be the Estimation
+It can be calculated using methods like MLE,laplace Estimation,wilson Estimation etc
+Its limitation is that its not relaible 
+
+2.Interval Estimation:in this method instead of estimating a single value we estimate the the occurenace of that value in an Interval called as the confidence Interval
+This is more accurate and relaible Estimation than that of the point Estimation
