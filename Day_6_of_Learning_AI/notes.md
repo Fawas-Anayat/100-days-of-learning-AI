@@ -41,9 +41,10 @@ transforms the catagorical data into the binary form
 instead of giving the 1,2,3.. numbers to the catagorical variables,it creates a completely new column that shows the presence(1) or absence(0) of that variable in that column
 standardscaler is for the numerical data and the onehotencoder is for the catagorical data
 
-### 4.PCA
-reduce the dimensionality of the datset without affecting the much variance of the data
+### 4.MinMaxScaler
 
-### 5. 
+### 5. OrdinalEncodor
+
+### 6.ColumnTransformer
 
 
