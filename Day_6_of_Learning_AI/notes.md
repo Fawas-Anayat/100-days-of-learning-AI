@@ -1,3 +1,7 @@
+Welcome to day 6/100
+Today I started by learning how can i make a data pipline and then statrted exploring different methods i can transform data .
+These transformations are not just like that of the data cleaning in the pandas but it invloves different statistical concepts
+
 # Data Pipeline
 Its a series of steps though which raw data is passed to make it clean and able to be used by machine learning model for model training
 
@@ -24,7 +28,7 @@ eg:LogisticRegression, RandomForestClassifier, LinearRegression
 
 
 
-##### following are some of the major imputers and their functions
+##### following are some of the major transformers and their functions
 ### 1. simple imputer
 handles the missing values in the dataset.The missing value can be replaced by the mean,median,most frequent value and can also be a constant value.we can also add a feature so that it will add a new column in the dataset that has the boolean value and the value will be true for the sample where there is a missing value
 
@@ -42,6 +46,10 @@ instead of giving the 1,2,3.. numbers to the catagorical variables,it creates a 
 standardscaler is for the numerical data and the onehotencoder is for the catagorical data
 
 ### 4.MinMaxScaler
+scales numerical data into a small range of intervals like between 0 and 1
+--its sensitive to the outliers
+--always fit the scaler on the training data and only transform it on the test data to avoid the data leakage 
+--minmaxscale does not affect the distribution or spread of the data
 
 ### 5. OrdinalEncodor
 
