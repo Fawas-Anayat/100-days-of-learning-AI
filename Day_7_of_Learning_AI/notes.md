@@ -27,4 +27,15 @@ Its most helpful when we are making different data pipelines.
 
 
 
-## Data Pipelines
+## Data Pipeline
+A Pipeline is like a conveyor belt where 
+We put raw data in at one end,
+Each step (imputer → encoder → scaler → model) runs automatically,
+and finally we get predictions or transformed data at the other end.
+It makes sure everything is done in the correct order and that there’s no data leakage (using test data to influence training).
+
+#### Advantages of using the pipelines
+--its once built,can be reused with the help of the joblib
+--can be integrated for the hyperparameter tunning like that in the gridsearchCV
+--avoid the data leakage
+
