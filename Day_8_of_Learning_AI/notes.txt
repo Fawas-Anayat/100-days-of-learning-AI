@@ -1,5 +1,5 @@
 ### Welcome to my  Day 8/100 of learning AI
-Today I will be exploring the Linear Regression,The most basic machine Learning Model
+Today I will be exploring the Linear Regression,The most basic machine Learning algorithm
 
 ### Linear Regression
 Linear Regression is one of the simplest and most fundamental machine learning algorithms.

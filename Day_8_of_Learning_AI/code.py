@@ -1,1 +1,2 @@
-print("hello world")
+### WELCOME TO MY DAY 8/100 OF LEARNING AI
+#The complete code of today's practice is available on my dedicated repository of the machine learning which can be accessed at (https://github.com/Fawas-Anayat/Machine_Learning_Algorithms/blob/main/Linear%20Regression/code.ipynb)
