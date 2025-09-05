@@ -1,4 +1,4 @@
-Welcome to my  Day 8/100 of learning AI
+### Welcome to my  Day 8/100 of learning AI
 Today I will be exploring the Linear Regression,The most basic machine Learning Model
 
 ### Linear Regression
