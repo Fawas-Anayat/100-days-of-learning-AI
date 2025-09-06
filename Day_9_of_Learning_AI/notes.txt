@@ -1,0 +1,6 @@
+Welcome to day 9/100
+Understanding the data by preprocessing and then visualising it using different tools is the most important part of the machine learning and AI.
+Today I explored the Summer Olympics dataset from kaggle,Perfomed exploratory data analysis on it and uncoverd some very beneficial trends.
+After EDA,I made a streamlit web application that showcase my whole analyses using ineractive graphs and charts.
+You can access the complete repository at (https://github.com/Fawas-Anayat/learning-ml-projects) 
+Thanks for stopping by.
