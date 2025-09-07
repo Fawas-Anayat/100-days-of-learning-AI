@@ -44,5 +44,5 @@ eg [1,2,3,4,5] is a vector and also we can say that the dimension of this vector
 
 SOME IMPORTANT TERMS:
 -rank,axis,no of dimensions is a same thing
--shape--means how much maximum item we can store in each axis of the Tensor,its generally written as (row,col)
+-shape--means how much maximum items we can store in each axis of the Tensor,its generally written as (row,col)
 -Size means the total items of the Tensor,it can simply be found using the shape like (rows*col)....for scaler the size is always equal to 1
