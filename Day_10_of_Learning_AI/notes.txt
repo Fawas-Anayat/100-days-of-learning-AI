@@ -1,1 +1,48 @@
 Welcome to my day 10/100 of Learning AI
+Today i studied Tensors,which are the most basic data structures for ML
+
+Tensors:
+-data structure
+-mostly store numbers
+-nDimensional array
+
+types:
+1.0D Tensors/scaler
+stores a single number
+eg [1]
+
+2.1D Tensor/array/2D array/vector
+-have 2 axes(axis also known as rank)
+eg [1,2,3,4,5] is a vector and also we can say that the dimension of this vector is 5
+-0D Tensor combine to form vector and then vectors combine to form nD arays
+
+3.2D Tensor:
+-collection of vector
+-having two axes
+-matrix
+(mostly in the tabular data we deal with the 1D and 2D Tensor,the data table as a whole can be called as the 2D Tensor and a single row in the table can be called as the vector or 1D Tensor)
+
+4.3D Tensor:
+-having three axes
+-can visualize as a cuboid
+-it also has a depth axes
+-shape of the 3D tensor is (no of matrices in 3D Tensor,no of rows in each matrix,no of columns in each matrix eg (3,4,5) and the number of items can be found by just multiplying each of the aove value)
+-can be used in the NLP in vectorization
+-time series data is mostly 3D Tensor like the financial data colected over a period of time
+
+5.4D Tensor:
+-will be a vector of the 3 D Tensors
+-used in computer vision mostly like in the image processing
+-also used in CCNs
+
+6.5D Tensor:
+-will be a matrix of the 3D Tensors
+-used in videos processing
+
+
+-In ML we deals majorly with the 1-5 D Tensors
+
+SOME IMPORTANT TERMS:
+-rank,axis,no of dimensions is a same thing
+-shape--means how much maximum item we can store in each axis of the Tensor,its generally written as (row,col)
+-Size means the total items of the Tensor,it can simply be found using the shape like (rows*col)....for scaler the size is always equal to 1
