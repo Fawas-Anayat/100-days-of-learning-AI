@@ -6,3 +6,5 @@ Today I am Learning the data collection through various sources and dealing with
 4.web scrapping
 
 Along with the topics above I have studied the SQL in depth and detail and practiced it using the mySQL workbench 
+
+I think in the field of AI,the most basic thing is to understand the data carefully because its data that decides what kind of results we are going to expect from the model.Also the credibility of data greatly depends on the source from where its collected.So before diving deep into the algorithms of machine Learning its very important that one should understand data deeply.
