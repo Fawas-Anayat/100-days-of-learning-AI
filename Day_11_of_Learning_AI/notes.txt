@@ -8,3 +8,11 @@ Today I am Learning the data collection through various sources and dealing with
 Along with the topics above I have studied the SQL in depth and detail and practiced it using the mySQL workbench 
 
 I think in the field of AI,the most basic thing is to understand the data carefully because its data that decides what kind of results we are going to expect from the model.Also the credibility of data greatly depends on the source from where its collected.So before diving deep into the algorithms of machine Learning its very important that one should understand data deeply.
+
+JSON(stands for javascript on notation)
+-its a universal notation means its understandable by almost every programming language
+-whenever we request a server data using an API,the data we get is in the form of json and we can use almos every language to parse that json files
+we can simply open the json type file using the function read_json() and make it  a dataframe in the pandas and we can do further work on it using the pandas
+
+SQL(stands for stuctured query language):
+we can connect the sql database using the mysql.connector library using the python and then can make it a dataframe and perform further actions upon it.
