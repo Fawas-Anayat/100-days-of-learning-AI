@@ -4,3 +4,5 @@ Today I am Learning the data collection through various sources and dealing with
 2.sql/json
 3.fetching with APIs
 4.web scrapping
+
+Along with the topics above I have studied the SQL in depth and detail and practiced it using the mySQL workbench 
