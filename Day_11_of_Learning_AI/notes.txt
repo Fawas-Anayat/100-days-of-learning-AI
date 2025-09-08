@@ -1,1 +1,6 @@
 Welcome to day 11/100 of my Learning AI
+Today I am Learning the data collection through various sources and dealing with some important sources of files including:
+1.csv,tsv  
+2.sql/json
+3.fetching with APIs
+4.web scrapping
