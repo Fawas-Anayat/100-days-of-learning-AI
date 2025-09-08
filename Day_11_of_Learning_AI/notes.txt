@@ -16,3 +16,8 @@ we can simply open the json type file using the function read_json() and make it
 
 SQL(stands for stuctured query language):
 we can connect the sql database using the mysql.connector library using the python and then can make it a dataframe and perform further actions upon it.
+
+
+--working with APIs
+API-connect two softwares also we can say simply that these are data pipelines
+we can accesss some data using the API and then make it a pandas dataframe and then use it in our project
