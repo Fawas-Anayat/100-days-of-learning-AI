@@ -1,0 +1,5 @@
+Welcome to my day 12/100 of Learning AI
+Today I'll be Learning following topics:
+1.Using APIs to collect data
+2.Data collection Using the web scrapping
+

@@ -1,0 +1,10 @@
+Welcome to my day 13-15 of Learning AI
+Upto day 12 I was Learning with a continuous pace but something exciting happend on day 13 . I had the opportunity to work on a project of a client as a freelancer .
+Due to privacy reasons I can't provide the source code or data used in the project but following are the details of the project I have done .
+- I have to collect data from different website regarding the cleaning of the beaches in the USA and I collected almost 5000 samples data having 13 features and delivered to the client.Mainly I collected data using APIs and a little web scrapping.
+-In the dataset I have provided,She highlighted 7 beaches and wanted the detailed analysis report about those .
+-So I performed the detailed EDA on the project using python numpy ,pandas,matplotlib and seaborn and then wrote a detailed report in the word as she demanded it .It contained the complete insights using charts and graphs.
+-Also I crafted an appaling dashboard using power BI and she was very happy for that as it depicted the data more clearly .
+from tomorrow onward I will be continuing again my journey of Learning AI
+
+Thanks for stopping by.
