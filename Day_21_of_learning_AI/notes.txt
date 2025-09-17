@@ -24,6 +24,12 @@ following are its some types:
  -->on catagorical data column apply the count plot
  -->use the pie chart if want to have the % of values
  --> sns.countplot is a similar function just like the value counts of     pandas that is it counts the values in a single column
+
+ if the column has the numerical data.then:
+      --make histogram(in continuous data).it helps to Understand the distribution of data
+      --sns.distplot---shows probability of occurance of a number..also tells about the skewness in the data
+      --sns.boxplot--gives 5 number summary..helps detect outliers and noisy data
+      df.skew--finds the skewness
  2.Bivariate Analysis--when we analyze two variables
 
 3.multivariate Analysis-- when we analyze many variables
