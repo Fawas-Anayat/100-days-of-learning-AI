@@ -13,3 +13,17 @@ following are Questions we should ask..
 5.How does the data look mathematically?..df.describe
 6.Are there any duplicates values?..df.duplicated().sum and can use the drop_duplicate function of the pandas
 7.How is the correlation between columns?..df.corr-->This function finds the pearson correlation value i.e between the -1 and the 1..the negative value tells that the inverse correlation and vice versa for the positive correlation.
+
+
+Exploratory Data Analysis
+following are its some types:
+1.Univariate Analysis-- when we analyze a single variable
+ -->first find whehther the data is numerical or catagorical
+ -->independent Analysis on a single column
+ -->plot graphs etc
+ -->on catagorical data column apply the count plot
+ -->use the pie chart if want to have the % of values
+ --> sns.countplot is a similar function just like the value counts of     pandas that is it counts the values in a single column
+ 2.Bivariate Analysis--when we analyze two variables
+
+3.multivariate Analysis-- when we analyze many variables
