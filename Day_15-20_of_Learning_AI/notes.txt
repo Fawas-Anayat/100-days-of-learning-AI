@@ -1,0 +1,20 @@
+Welcome to day 15-20/100 of my Learning AI
+
+
+Over the past few days, I had the opportunity to work on two exciting freelancing-style projects that really pushed my skills in data cleaning, analysis, and machine learning.
+
+🔹 Project 1 – Data Cleaning & Processing
+I was given 50+ CSV files. My task was to clean them, extract the specific columns requested by the client, and compile everything into a new, well-structured CSV file. This project helped me strengthen my skills in data wrangling, preprocessing, and automation.
+
+🔹 Project 2 – Customer Segmentation & Prediction
+Here, I was provided with a dataset and asked to build a model for customer segmentation and prediction.
+
+For segmentation, I applied K-Means Clustering to identify distinct customer groups.
+
+For prediction, I used a Random Forest Classifier to forecast customer behavior.
+
+These projects not only tested my technical skills but also gave me hands-on exposure to solving real-world data challenges—from raw data cleaning to deploying machine learning models.
+
+The journey is getting more exciting each day, and I’m looking forward to exploring deeper into AI, ML, and data science as I move ahead! 🚀
+
+Due to privacy by the client I can't share the source code for these projects
