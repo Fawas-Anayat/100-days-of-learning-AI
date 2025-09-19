@@ -1,2 +1,10 @@
 Welcome to my day 22/100 of learning AI
 Today I'll be continuing the EDA as  I was learning from yesterday
+
+
+bivariate and  Multivariate analysis:
+analyzing more than one columns at a time and finding their relation
+1.scatterplot(numeical-numeical)...sns.scatterplot(x,y,hue)
+2.bar plot(numerical-catagorical) --can also use the boxplot but it depends on the condition
+3.displot(numerical-catagorical)
+4.heatmap(catagorical-catagorical)
