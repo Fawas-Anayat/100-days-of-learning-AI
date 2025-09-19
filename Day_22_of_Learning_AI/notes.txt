@@ -7,4 +7,7 @@ analyzing more than one columns at a time and finding their relation
 1.scatterplot(numeical-numeical)...sns.scatterplot(x,y,hue)
 2.bar plot(numerical-catagorical) --can also use the boxplot but it depends on the condition
 3.displot(numerical-catagorical)
-4.heatmap(catagorical-catagorical)
+4.heatmap(catagorical-catagorical) and also can plot the clustermap,,make heatmap on the pivot tables
+clustermap combines the columns that behaves similarly
+5.pairplot(collection of the scatterplots)..apply where there are numerical data
+6.line plot(numeical)--use for time series data
