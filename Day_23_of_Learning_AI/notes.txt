@@ -1,0 +1,3 @@
+Welcome to my day 23/100 of learning AI
+Today I am going to learn Pandas in depth and detail. Although I have learnt it before but Now I will be further strenghtning 
+my concepts of pandas 
