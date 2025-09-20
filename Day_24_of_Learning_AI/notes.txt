@@ -1,2 +1,9 @@
 Welcome to my day 24/100 of learning AI
 Today I will be continuing the Pandas as I started yesterday
+
+Fetching the rows on the basis of some condition:
+eg==> mask=data['col_name']=='some entity of the col'
+mask will condition the boolean series that have the true or false as per the given condition
+we can now use it as :
+data[mask]===>this is the new dataframe that contain only those rows where the mask is true 
+for that specific column
