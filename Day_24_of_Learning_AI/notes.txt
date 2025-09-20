@@ -1,0 +1,2 @@
+Welcome to my day 24/100 of learning AI
+Today I will be continuing the Pandas as I started yesterday
