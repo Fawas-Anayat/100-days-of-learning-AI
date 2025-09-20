@@ -14,4 +14,15 @@ for that specific column
 by default. if we want the ascending order we have to pass a key word argument as ascending=false 
 --> sort also sorts the whole dataframe on the basis of some specific column of the dataframe as follow
 df.sort_values(df['col_name'])
---> can also sort on the basis of two columns
+--> can also sort on the basis of two columns in this case we have to pass a list of the columns
+instead of the name of a single column
+
+==>Groupby function
+groups on the basis of the some specific column as follow:
+a=df.Groupby(['col_name'])
+now we have to call various functions so that we can easily perform different operations on the data
+a.first-->gives us the top value in the each group
+a.last-->gives us the bottom values in each group
+a.groups-->gives the names of the groups
+a.get_groups('group_name')--> gives the full group whose names is passed as a parameter
+--also we can find the total number of columns by applying the shape attribute on the get_groups function
