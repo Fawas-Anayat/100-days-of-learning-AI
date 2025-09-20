@@ -1,3 +1,11 @@
 Welcome to my day 23/100 of learning AI
 Today I am going to learn Pandas in depth and detail. Although I have learnt it before but Now I will be further strenghtning 
 my concepts of pandas 
+Important functions to remember that are mostly used:
+1.df.head()
+2.df.tail()
+3.df.info()
+4.df.size()
+5.df.shape ---its not function its an attribute
+6.df.sample()
+
