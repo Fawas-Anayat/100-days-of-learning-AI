@@ -6,6 +6,19 @@ Important functions to remember that are mostly used:
 2.df.tail()
 3.df.info()
 4.df.size()
-5.df.shape ---its not function its an attribute
+5.df.shape ---its not function its an attribute and returns the shape of the dataframe as a tuple
 6.df.sample()
+7.df.describe()--works only on the numerical columns and returns the statistical analysis of the
 
+
+How to access certain data columns from the dataframe:
+==> for one column write---> df['col name ']
+==> for more than one column write ----> df[['col 1 ','col 2']] that is pass the names of the columns as a list
+
+
+Fetching some rows and columns
+iloc is a very powerfull and flexible function used for many purposes as per the needs
+df.iloc[1]---> returns the row at index 1
+df.iloc[3:6]---> returns the rows having index number 3,4 and 5
+df.iloc[1,6,7]--->returns the rows at index number 1 ,6 and 9
+df.iloc[row_explanation , col_explanatin]--this way we can access the both rows and columns
