@@ -7,3 +7,11 @@ mask will condition the boolean series that have the true or false as per the gi
 we can now use it as :
 data[mask]===>this is the new dataframe that contain only those rows where the mask is true 
 for that specific column
+
+==>df.value_counts()-->only on catagorical columns
+==>plot()==>create a graph using the pandas
+==>sort_values()-->>applicable on both the series and the dataframes ..it gives us the descending order 
+by default. if we want the ascending order we have to pass a key word argument as ascending=false 
+--> sort also sorts the whole dataframe on the basis of some specific column of the dataframe as follow
+df.sort_values(df['col_name'])
+--> can also sort on the basis of two columns
