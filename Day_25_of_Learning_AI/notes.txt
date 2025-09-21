@@ -1,3 +1,10 @@
 welcome to my day 25/100 of learning AI
 Today I'll be continuing my pandas learning as per the yesterday's progress and will cover today the following topics:
 
+-->isin(some_list)--> returns a boolean series that checks whether the item is present in the column or not
+-->size()--> counts all the rows(including null values)
+-->count()--> counts only the non-null values in a rows
+-->merge()--> the similar of the joins in the sql
+--> when we apply the groupby() by passing the two columns then we get a multi index series
+--> reset_index()--> converts a series to a dataframe when used appropraitely
+-->pivot_table()-->just like that of the excel
