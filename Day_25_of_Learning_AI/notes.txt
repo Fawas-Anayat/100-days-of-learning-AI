@@ -1,0 +1,3 @@
+welcome to my day 25/100 of learning AI
+Today I'll be continuing my pandas learning as per the yesterday's progress and will cover today the following topics:
+
