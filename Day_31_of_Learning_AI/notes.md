@@ -48,5 +48,7 @@ applied on the numerical columns and brings those columns to a common scale
 
 3.robsut scaling  
 -it generally performs well on the data having outliers  
+
+
 4.maxabsolutescaling  
 its used in the data which is very sparse means there are greater number of zeroes in it  
