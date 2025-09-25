@@ -13,13 +13,16 @@ standardize the range of the independent variables to a range so that certain ML
 -->Distribution of the data before and after it remains same   
 -->will it make the performance of the model better ? it depends on the algorithm like it will significantly increase the accuracy of the logistic regression but won't affect the decisiontree accuracy   
 ---> the outliers in the data won't be reduced using it .their effect will be same.rather we have to reduce them explicitely  
+
+### use cases:
 -->we can use it when working with the following algorithms:  
         -->kmeans  
         -->knn  
         -->pca  
         -->aritificaial neural networks  
         -->gradient descent   
---> dont use it in the following algorithms:  
+
+dont use it in the following algorithms:  
         -->tree based algorithms  
         -->random forest  
         -->decision tree   
