@@ -1,2 +1,16 @@
 welcome to my day 26-30 of learning AI
 These days I am learning the following topics:
+pandas profiling
+
+
+-->Feature Engineering
+--this means to extract the best Feature from the dataset 
+--even a poor algorithm can perform very good with the good Features
+
+TYPES:
+1-Feature transformation
+-->missing values imputation(can be filled or removed)
+-->outlier detection
+2-Feature construction--making new Features from the data and it depends on the intuition and the experience of the data scientist
+3-Feature selection
+4--Feature scaling
