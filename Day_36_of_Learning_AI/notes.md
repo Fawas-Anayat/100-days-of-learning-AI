@@ -14,6 +14,7 @@ Today I'll be learning the following topics
 --sns.displot  
 --pd.skew()  
 --QQ plot--in the qq plot if the data points are as a line in the 45 degree angle then its the normal  
+
 ### 1.log transformation
 --we simply take the log of all the values and the data  becomes the normally distributed  
 --dont work on the negative values  
@@ -25,3 +26,13 @@ Today I'll be learning the following topics
 ### 3.square transformation
 --applied on the left skewed data
 ### 4.square root transformation
+
+
+# power transformers:
+### Box Cox transformation
+--its a genaralized transformation. like the log and the square root are its types.  
+--it converts the data into the normal distribution.  
+--applicable only on the numbers greater than zero.  
+
+### Yeo Jonson transformation
+--its the adjustent of the box cox as we can apply it to the zero as well as the negative numbers
