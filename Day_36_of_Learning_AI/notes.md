@@ -35,4 +35,5 @@ Today I'll be learning the following topics
 --applicable only on the numbers greater than zero.  
 
 ### Yeo Jonson transformation
---its the adjustent of the box cox as we can apply it to the zero as well as the negative numbers
+--its the adjustent of the box cox as we can apply it to the zero as well as the negative numbers.  
+-power transformer class of the sklearn do the standardization by default.  
