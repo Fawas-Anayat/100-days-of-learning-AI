@@ -37,3 +37,5 @@ Today I'll be learning the following topics
 ### Yeo Jonson transformation
 --its the adjustent of the box cox as we can apply it to the zero as well as the negative numbers.  
 -power transformer class of the sklearn do the standardization by default.  
+-also the by default method here is the yeo jonson.  
+yeo jonson gives the better results as compared to the box cox.  
