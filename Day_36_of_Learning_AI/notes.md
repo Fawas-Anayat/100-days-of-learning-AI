@@ -13,8 +13,15 @@ Today I'll be learning the following topics
 #### How to find out the data is normal?
 --sns.displot  
 --pd.skew()  
---QQ plot--in the qq plot if the data points are as a line in the 45 degree angle then its the normal
+--QQ plot--in the qq plot if the data points are as a line in the 45 degree angle then its the normal  
 ### 1.log transformation
+--we simply take the log of all the values and the data  becomes the normally distributed  
+--dont work on the negative values  
+-- when we apply on the right skewed data then that data gets normal  
+-- the data gets distributed linearly and therfore the performance of the linear models gets better after it  
 
 ### 2.reciprocal transformation
-### 3.power transformation
+
+### 3.square transformation
+--applied on the left skewed data
+### 4.square root transformation
