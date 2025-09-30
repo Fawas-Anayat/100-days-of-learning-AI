@@ -7,7 +7,8 @@ following are the two main techniques.
 ## 1.descritization/binning
 --bin is the alternative name for the interval.  
 --process of transforming the continuous variable to the discrete by creating a set of contiguous variables that span the range of the variable's values.  
---it helps in reducing the outliers and  improve the data spread.  
+--it helps in reducing the outliers and  improve the data spread.   
+
 ### types:
 --equal width/uniform binning(it can handle the outliers and the spread/distribution of the data remains same)  
 
@@ -17,4 +18,5 @@ following are the two main techniques.
 
 ### usage
 -sklearn has the class named as kbinsdescritizer
+
 ## 2.Binarization
