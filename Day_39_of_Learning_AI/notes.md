@@ -31,3 +31,12 @@ use the :
 ### assumptions for the CCA
 -values are missing completely randomly.(MCAR)  
 -if the data is MCAR then it preserves the variable distribution.  
+
+### disadvantages
+--it can affect the distribution of the data if not the MCAR.  
+--when using the model in production, then model don't know how to handle the missing data.  
+
+### when to use?
+-if data is MCAR.  
+-if the missing data is <5% then can apply it .in case of more don't apply it.  
+
