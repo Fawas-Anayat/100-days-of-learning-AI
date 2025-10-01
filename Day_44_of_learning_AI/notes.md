@@ -10,5 +10,6 @@ there are three types of the missing data.
 # iterative imputation/MICE
 -multivariate imputation chained equations.   
 -its applied on the MNAR.  
+-its accurate but slow .  
 
 
