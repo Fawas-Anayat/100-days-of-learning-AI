@@ -1,0 +1,1 @@
+#access the complete code at my repo of machine learning algorithms at (https://github.com/Fawas-Anayat/Machine_Learning_Algorithms/tree/main/PCA)
