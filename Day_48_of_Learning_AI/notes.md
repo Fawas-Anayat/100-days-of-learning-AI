@@ -69,3 +69,22 @@ when we find the eigen values of the covariance metrix then the eigen vector hav
 - transform all the data points to the new dimension as we wish.  
 
 -these all functions can be applied easily using the sklearn.
+
+## pca using the sklearn
+- use the pca class of the sklearn  
+- in the pca object there is a keyword argument that is n_components that shows the number of PCs we want to draw.  
+- some benefits with  the pca trained object are the arguments like pca.explained_variance_ that shows us the eigen values.  
+- and the pca.components_ gives us the eigen vectors.  
+
+
+## how to find the optimum number of the PCs:
+- a single eigen value tells us that how much its corressponding eigen vector explains the variance of the data.  
+- we find the percentage of the eigen values and then take that amount of the eigen vector so that we can easily explain at least 90 % of the variance of the data.  
+- use the pca.explained_ratio_ for getting the %.  
+- use this for the graph..plt.plot(np.cumsum(pca.explained_variance_ratio_))
+
+
+## when pca won't work
+- when the data is circular format means the variance on the x axis and the y axis is same.  
+- when the data has some special form in the higher dimension like the sine curve then don't appply the pca as it won't preserve that pattern in the lower dimension.  
+ 
