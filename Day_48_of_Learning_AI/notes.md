@@ -18,3 +18,20 @@ Today I am Learning the following topics
 
 ## why variance is imp in pca?
 -as the relation between the points is often shown by the distance between them and if we convert the data from the higher dimension to the lower dimension then to preserve that distance we take the axes that have the maximum spread , if we take the minimum spread then we'll have no idea of the relation of the points of ths data.  
+
+
+## mathematical  problem formulation of pca
+we consider each data point as the vector and find the projection of each point on a unit vector and that projection gives us a scaler quantity that is simply the distance of that point on the unit vector.  
+now we have to choose that unit vector for which the variacnce is maximum.  
+
+-the core idea is that we will check the variance of the projections on lot of unit vectors and then select that unit vector for which the variance is maximum.  
+
+#### covariance
+tells the relation between two features.its values can be any, positive to negative.  
+
+#### corelation
+same as the covariance but its values are restricted between 0 and 1.  
+
+#### covariance  metrix
+-its a sqaure metrix.  
+-its a symmetrical metrix where the diagonal elemsnts are the variance of each column and and the non diagonal are the covariance.  
