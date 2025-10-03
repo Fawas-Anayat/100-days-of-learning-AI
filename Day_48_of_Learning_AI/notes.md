@@ -1,6 +1,6 @@
 welcome to my day 48/100 of Learning AI
 
-Today I am Learning the following topics  
+Today I am Learning the mathematical foundation of the PCA in depth and detail and all the notes are here in this file.
 
 -spread is not the variance exactly.  
 -variance is proportional to spread.  
@@ -24,7 +24,8 @@ Today I am Learning the following topics
 we consider each data point as the vector and find the projection of each point on a unit vector and that projection gives us a scaler quantity that is simply the distance of that point on the unit vector.  
 now we have to choose that unit vector for which the variacnce is maximum.  
 
--the core idea is that we will check the variance of the projections on lot of unit vectors and then select that unit vector for which the variance is maximum.  
+-the core idea is that we will check the variance of the projections on lot of unit vectors and then select that unit vector for which the variance is maximum. 
+-we can say that its the optimization function.   
 
 #### covariance
 tells the relation between two features.its values can be any, positive to negative.  
@@ -35,3 +36,36 @@ same as the covariance but its values are restricted between 0 and 1.
 #### covariance  metrix
 -its a sqaure metrix.  
 -its a symmetrical metrix where the diagonal elemsnts are the variance of each column and and the non diagonal are the covariance.  
+-it tells the spread of each and every axis.  
+-it tells the relationship/covariance between all the axes.  
+
+
+## matrices
+-matrices are the linear transformations. They when applied to a coordinate system all of its points are transformed.  
+-identity metrix when applied to a coordinate system it don't change/transform the values so thats a special case and therefore its known as the identity metrix.  
+-they,when applied, change the orientation of the cartesian coordinate system(where each point/number can be treated as the vector) and then the magnitudes as well as the direction of the points/vectors gets changed.  
+-geogebra is the tool/website through which we can find the transformations.  
+
+### eigen vectors
+-a special vector and their direction don't change upon transformation ,instead their magnitude can be changed.   
+-when we apply the linear transformation to a 2-D coordinate system we get minimum two eigen vectors.  
+-in 3D are three eigen vectors and so on.  
+
+### eigen values
+- as the eigen vector don't change its direction upon the linear transformation but its can change its scale/magnitue.  
+- this change in the scale / magnitude is known as the eigen value.  
+-its the the factor with which the eigen vector changes its scale.  
+
+## final points about the metrices
+when we find the eigen values of the covariance metrix then the eigen vector having the highest eigen value is the one that points in the direction of the highest variance.  
+-the eigen vector having the highest eigen value is the PC1 ,2nd highest is the PC2 and the third highest is the PC3.  
+-when we get the principal components we transform the points from n-d to the 3d ,2d or any dimension as we wish.  
+
+
+# how pca works?
+- make the data as the mean centerd.it improves the performance of the pca.  
+- find the covariance metrix.  
+- find the eigen vectors and eigen values.  
+- transform all the data points to the new dimension as we wish.  
+
+-these all functions can be applied easily using the sklearn.
