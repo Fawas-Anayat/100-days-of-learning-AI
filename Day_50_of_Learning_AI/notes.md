@@ -15,3 +15,7 @@ Today I am Leaarning the Mathematical formulation of Linear regression
 - famous technique is the gradient descent.  
 - works best on the greater dimension.  
 - there is another class in the sklearn named as the SGDRegression that uses the gradeint descent .  
+
+## using OLS method to find the m and b values
+following are the formulas
+![alt text](image-1.png).  
