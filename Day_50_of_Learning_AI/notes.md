@@ -19,3 +19,5 @@ Today I am Leaarning the Mathematical formulation of Linear regression
 ## using OLS method to find the m and b values
 following are the formulas
 ![alt text](image-1.png).  
+
+-for finding the best fit line we find the squared distances from the points to the line.We take the square bacause if don't take the square all the values will cancel out each other .we are also not taking the modelus as its not differentiable at zero.  
