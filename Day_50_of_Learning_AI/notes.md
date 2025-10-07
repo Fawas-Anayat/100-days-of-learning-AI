@@ -21,3 +21,13 @@ following are the formulas
 ![alt text](image-1.png).  
 
 -for finding the best fit line we find the squared distances from the points to the line.We take the square bacause if don't take the square all the values will cancel out each other .we are also not taking the modelus as its not differentiable at zero.  
+-actually we are insterested in the most minimized value of the loss function i.e  
+![alt text](image.png)  
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
