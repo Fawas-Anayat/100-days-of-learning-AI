@@ -45,3 +45,11 @@ now the original equation becomes as :
 ![alt text](image-15.png)
 Here E is the loss function.  
 ![alt text](image-16.png)
+![alt text](image-17.png)
+![alt text](image-18.png)
+![alt text](image-19.png)
+
+
+- as we discussed above the simple and the multiple LR uses the OLS method(some specific formula) that finds the values. but in this method(as we can see the above formula) we have to do lot of the computations that slows down the algorithm .  
+- solution is the gradient desent where we use the approximation instead of the exact values.  
+- SGDRegressor is the class of the sklearn for the linear regression that uses the  gradient descent method in the backend.but its used when the data is extremely higher dimension.  
