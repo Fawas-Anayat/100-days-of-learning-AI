@@ -15,3 +15,33 @@ Today I am Learning the following topics
 
 - in the sklearn.datasets we have a class named as the make_regression() using which we can generate the dataset of our choice.  
 - use the lr.coeff_ and lr.intercept_ on the lr trained object.  
+
+## Mathematical formulation
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-6.png)
+then the y hat metrix becomes as:
+![alt text](image-7.png)
+
+y metrix is the target/prediction of all the values.  
+B is the values of the coefficients.  
+X is the metrix of all the input features.  i.e  
+![alt text](image-8.png)
+then we have
+![alt text](image-9.png)
+now we have
+![alt text](image-10.png)
+then
+![alt text](image-11.png)
+and now
+![alt text](image-12.png)
+to prove the equlaity of the mid terms we can do it as follow
+![alt text](image-13.png)
+![alt text](image-14.png)
+now the original equation becomes as :
+![alt text](image-15.png)
+Here E is the loss function.  
+![alt text](image-16.png)
