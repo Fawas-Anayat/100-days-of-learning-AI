@@ -50,7 +50,8 @@ Here E is the loss function.
 ![alt text](image-19.png)
 and now
 ![alt text](image-20.png)
-
+- in the above picture the X has one additional column(i.e the col containing the 1's at the start of each row) apart from all the features of the dataset.
+- np.linalg has some important functions that we can use for the calculations.  
 - as we discussed above the simple and the multiple LR uses the OLS method(some specific formula) that finds the values. but in this method(as we can see the above formula) we have to do lot of the computations that slows down the algorithm .  
 - solution is the gradient desent where we use the approximation instead of the exact values.  
 - SGDRegressor is the class of the sklearn for the linear regression that uses the  gradient descent method in the backend.but its used when the data is extremely higher dimension.  
