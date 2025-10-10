@@ -31,3 +31,16 @@ following are the formulas
 ![alt text](image-4.png)
 
 ![alt text](image-5.png)
+
+
+## Assumptions of Linear Regression (for mathematical correctness):
+
+- Linearity – Relationship between X and y is linear.
+
+- Independence – Observations are independent.
+
+- Homoscedasticity – Constant variance of residuals.
+
+- Normality – Errors are normally distributed.
+
+- No Multicollinearity – Predictors are not highly correlated.
