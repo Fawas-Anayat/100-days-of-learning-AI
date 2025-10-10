@@ -48,7 +48,8 @@ Here E is the loss function.
 ![alt text](image-17.png)
 ![alt text](image-18.png)
 ![alt text](image-19.png)
-
+and now
+![alt text](image-20.png)
 
 - as we discussed above the simple and the multiple LR uses the OLS method(some specific formula) that finds the values. but in this method(as we can see the above formula) we have to do lot of the computations that slows down the algorithm .  
 - solution is the gradient desent where we use the approximation instead of the exact values.  
