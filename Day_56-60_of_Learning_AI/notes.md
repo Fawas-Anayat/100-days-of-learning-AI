@@ -1,4 +1,4 @@
-welcome to my day 56/100 of Learning AI  
+welcome to my day 56-60/100 of Learning AI  
 
 Today I am learning the gradient descent
 
