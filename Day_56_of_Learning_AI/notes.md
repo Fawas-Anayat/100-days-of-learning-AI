@@ -33,6 +33,10 @@ its an iterative algorithm so getting to know when to stop is important which ca
 - we can set the iterations to a specific numbers like 100 or 1000. these no of iterations is known as the epochs.we can find the no of epochs easily while looking at the graph .  
 
 
-after done with the mathematical intuition above we can now use the exact mathematicak formulation as below.  
+after done with the mathematical intuition above we can now use the exact mathematical formulation as below.  
+
+
+## Mathematical Formulation
+
 
 
