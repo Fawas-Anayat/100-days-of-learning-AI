@@ -40,6 +40,8 @@ after done with the mathematical intuition above we can now use the exact mathem
 Look at the following ss.we can infer that we have to find the value of the slope by finding the derivative at that specific condition.  
 ![alt text](image-3.png)
 and in this way we get the value of the slope and we find it again iteratively untill at the end we get the minimum value which is our requirement.  
+- learning rate multiplied by the slope is termed as the step size.  
+
 
 
 
