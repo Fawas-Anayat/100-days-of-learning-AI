@@ -1,4 +1,4 @@
-welcome to my day 56-60/100 of Learning AI  
+welcome to my day 56-65/100 of Learning AI  
 
 Today I am learning the gradient descent
 
@@ -42,6 +42,8 @@ Look at the following ss.we can infer that we have to find the value of the slop
 and in this way we get the value of the slope and we find it again iteratively untill at the end we get the minimum value which is our requirement.  
 - learning rate multiplied by the slope is termed as the step size.  
 
+- we are calculating the gradient and thats why its known as the gradient descent.  
+![alt text](image-4.png)
 
 
 
