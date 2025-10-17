@@ -46,4 +46,20 @@ and in this way we get the value of the slope and we find it again iteratively u
 ![alt text](image-4.png)
 
 
+## What affects the gradient descent 
+- learning rate-- neither very large nor very small learning rate is beneficial as it will result in large number of epochs and hence slowing the model.  
 
+- Loss function matters alot( in our case above we have taken the mean sqaured error as the loss function ) 
+
+![alt text](image-5.png)
+
+- the squared funtion is the convex function( the one having only one minima and its the global minima . and in case of this function if we draw the line across two points it dont cut the function graph. )
+if we have some local minima in a function( the non-convex function) then its a problem because the algorithm sometimes stops at the local minima instead of the global one.   
+
+-  in the pic above the flat area in some graph is known as the platue and in the 3d its known as the saddle point , the issue with it is that here the model gets very slow and if we have very small number of epochs then we barely reach to the actual solution.  
+
+- if the data is scaled then the mode will be fast as compared to the non-scaled data. thats why its advised that we should scale the data before we train the linear regression model.  
+
+
+philosopjically GD:(in urdu):
+" ap jitni b ghalat value se start kro , ye ap ko sahi jaga par pohuncha deta hay untill ap sahi steps ley rahay hu. or yahi life par b applicable hay. this can be true for the real life"
