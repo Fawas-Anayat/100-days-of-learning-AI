@@ -1,6 +1,6 @@
 welcome to my day 66-75 of learning AI
 
-These days Iam learning the following topics
+These days Iam learning the following topics    
 
 # Types of Gradient Descent
 
